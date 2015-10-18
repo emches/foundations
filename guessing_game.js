@@ -23,7 +23,7 @@ $(document).ready(function(){
 	    	msg = "TOO HIGH, YOU ARE!";
 	        new_img = "img/yoda_high.jpg";
 	      } else {
-	      	msg = "YOU GOT IT";
+	      	msg = "CONGRATS, JEDI!!  ";
 	        new_img = "img/stormtroopers.gif";
 	        $(this).hide();
 	        $('#hint').hide()
