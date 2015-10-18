@@ -1603,6 +1603,27 @@ pre code {
   font-size: 40px;
   font-family: "Impact";
   color: white;
+  padding: 0px;
+}
+
+#hot {
+  font-size: 40px;
+  font-family: "Impact";
+  color: red;
+}
+
+#cold {
+  font-size: 40px;
+  font-family: "Impact";
+  color: blue;
+}
+
+
+#guess_count {
+  font-size: 60px;
+  font-family: "Impact";
+  color: red;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -2738,6 +2759,10 @@ fieldset[disabled] .checkbox label {
 .my_img {
     margin: 10px auto;
     display: block;
+    max-height: 200px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }
 select.input-sm {
   height: 30px;
@@ -3541,6 +3566,7 @@ fieldset[disabled] .btn-link:focus {
   text-align: center;
   margin: auto;
   color: white;
+  background-color: #2F8D24;
 }
 .btn-sm,
 .btn-group-sm > .btn {
