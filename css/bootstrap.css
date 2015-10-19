@@ -1606,6 +1606,13 @@ pre code {
   padding: 0px;
 }
 
+.my_desc {
+  font-size: 20px;
+  font-family: "Impact";
+  color: white;
+  padding: 0px;
+}
+
 #hot {
   font-size: 40px;
   font-family: "Impact";
